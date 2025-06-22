@@ -6,10 +6,10 @@
             background-color: #77dcf5; /* Fondo azul claro */
             color: #333; /* Texto en gris oscuro para buena lectura */
         }
-        h1 {
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size:4vw;
-        }
+       h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
 
         /* Encabezado y pie de página con fondo verde oscuro y texto blanco */
         header, footer {
