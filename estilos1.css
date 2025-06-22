@@ -7,7 +7,7 @@
             color: #333; /* Texto en gris oscuro para buena lectura */
         }
        h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 4rem;
 }
 
 
