@@ -1,0 +1,169 @@
+/* Estilo general de la página */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía legible y moderna */
+            margin: 0; /* Quita márgenes del navegador */
+            padding: 0; /* Quita relleno predeterminado */
+            background-color: #77dcf5; /* Fondo azul claro */
+            color: #333; /* Texto en gris oscuro para buena lectura */
+        }
+        h1 {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 80px;
+        }
+
+        /* Encabezado y pie de página con fondo verde oscuro y texto blanco */
+        header, footer {
+            background-color: #fafd42; /* Verde oscuro */
+            color: rgb(0, 0, 0); /* Texto blanco */
+            text-align: center; /* Centrado horizontal */
+            padding: 20px; /* Espaciado interno */
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #47ee0596; /* Verde más oscuro */
+            padding: 15px; /* Espaciado interno */
+            text-align: center; /* Centra los enlaces */
+            color:#333;
+        }
+
+        /* Estilo de los enlaces del menú */
+        nav a {
+            color: white; /* Texto blanco */
+            margin: 0 20px; /* Espacio horizontal entre enlaces */
+            text-decoration: none; /* Sin subrayado */
+            font-weight: bold; /* Negrita */
+        }
+
+        /* Efecto al pasar el mouse sobre los enlaces */
+        nav a:hover {
+            text-decoration: underline; /* Subrayado al pasar el cursor */
+            
+        }
+
+        /* Estilo del contenido principal */
+        main {
+            padding: 40px 20px; /* Espaciado interno grande */
+            max-width: 1000px; /* Ancho máximo del contenido */
+            margin: auto; /* Centrado horizontal automático */
+        }
+
+        /* Secciones con fondo blanco, borde redondeado y sombra */
+        section {
+            margin-bottom: 40px; /* Separación entre secciones */
+            background-color: #ffffff; /* Fondo blanco */
+            padding: 20px; /* Espaciado interno */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        /* Imágenes y videos centrados y adaptables al tamaño */
+        img, iframe {
+            display: block; /* Comportamiento de bloque */
+            margin: 20px auto; /* Centrado automático con espacio vertical */
+            max-width: 100%; /* Que no sobrepasen el ancho del contenedor */
+        }
+
+        /* Listas con sangría a la izquierda */
+        ul {
+            padding-left: 20px; /* Sangría para viñetas */
+        }
+
+         /*ejemplo alinear imagen a la derecha
+        .img-derecha 
+        {
+            display: block;
+            margin-right: auto;
+            margin-left: 0;
+        }
+        */
+
+        .galeria {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que se acomoden en otra línea si no caben */
+    align-items: center;
+}
+.galeria img {
+    /* Ajusta el tamaño relativo */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados para estética */
+}
+
+.WhatsApp{
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+      z-index: 1;
+      background-size: cover;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 350px;
+      margin: auto;
+      top: 50%;
+}
+.Servicios button{
+     background-color: #77dcf5;
+    color: rgb(2, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Contacto button{
+     background-color: #77dcf5;
+    color: rgb(2, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.WhatsApp button{
+    background-color: #77dcf5;
+    color: rgb(2, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.contenido {
+  padding: 30px;
+  text-align: center;
+}
+
+.pie-pagina {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+.pie-pagina .seccion {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.pie-pagina .seccion h3 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+}
+
+.pie-pagina .seccion a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
